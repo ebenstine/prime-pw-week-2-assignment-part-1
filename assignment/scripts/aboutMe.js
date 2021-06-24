@@ -1,6 +1,6 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
-let firstName = 'Eben';
+let firstName = 'Eben ';
 console.log(firstName);
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
 let lastName = 'Stine';
@@ -12,7 +12,7 @@ let fullName = firstName + lastName;
 console.log(fullName);
 
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-let luckyNumber = 7;
+let luckyNumber = 2;
 
 // 6 - Console log this sentence, adding in the variables you created above:
 // 'My name is (full name), and I think (lucky number) is a winner!'.
@@ -21,7 +21,7 @@ sentence = 'My name is ' + fullName + ', and I think ' + luckyNumber + ' is a wi
 console.log(sentence);
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-let adventurous = 'true';
+let adventurous = true;
 console.log(adventurous);
 
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
@@ -96,10 +96,10 @@ switch (mostPets) {
     mostPets = pets;
     break;
   case pets < friendsPets:
-    mostPets = friendsPets
+    mostPets = friendsPets;
     break;
   case pets == friendsPets:
-    mostPets = "They are equal";
+    mostPets = 'They are equal';
     break;
 }
 
